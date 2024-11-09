@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link href = "./oform.css" rel = "stylesheet" type = "text/css">
+	<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
+	<title>Сайт - электронный журнал учащихся школы №111</title>
+</head>
+<body>
+	<div id = "content">
+		<header>
+			<div id = "logo">
+				<img src = "./gerb.png" alt=./gerb.ppg" width="200" height="200">
+			</div>
+			<div id = "name">
+				<h1>Электронный журнал учащихся школы №111</h1>
+			</div>
+		</header>
+		<nav id = "ssil">
+			<a href = "index.html">Главная страница нашей школы!</a>
+			<a href = "classes.html">Список наших классов</a>
+			<a href = "teachers.html">Наш коллектив</a>
+			<a href = "contacts.html">Связь с нами</a>
+		</nav>
+		<div id = "main">
+			<p><b>Наш адрес:</b> г. Иркутск, ул. Алмазная, д. 111</p>
+			<p><b>Для связи с нами заполните форму:</b></p>
+			<form method = "get" action = "#">
+			<table id = "form">
+				<tr>
+					<td>Введите свое имя:</td>
+					<td>Введите ваш номер телефона:</td>
+					<td>Введите вашу электронную почту:</td>
+					<td>Введите сообщение:</td>
+				</tr>
+				<tr>
+					<td><input name = "name"></td>
+					<td><input name = "tel"></td>
+					<td><input name = "mail"></td>
+					<td><textarea name = "text" rows = "2"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><input name = "otp" type = "submit" value = "Отправить"></td>
+				</tr>
+			</table>
+		</div>
+		<footer> Этот сайт предназначен для ознакомления с информацией о школе и для отслеживания оценок учащихся родителями </footer>
+	</div>
+</body>
+</html>

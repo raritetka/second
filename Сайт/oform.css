@@ -1,0 +1,96 @@
+﻿header {
+		margin-top:-10px;
+		margin-left:-8px;
+		margin-right:-8px;
+		padding:2em;
+		color:white;
+		background-color:#880000;
+		clear:left;
+		text-align:center;
+		}
+body {
+		background-image:url(./5.jpg);
+}
+div#content {
+		font-family: Garamond;
+		margin-top:100px;
+		width:100%;
+		border:none;
+		margin:auto;
+		}
+nav#ssil {
+		height:35px;
+		border:#4C0000;
+		padding:1em;
+		text-align:center;
+		background-color:#880000;
+		margin-left:-8px;
+		margin-right:-8px;
+		}
+nav a {
+		margin-right:1px;
+		text-decoration: none;
+		padding:10px;
+		color:white;
+		border:solid white 2px;
+		
+		}
+#main {
+		padding:2em;
+		}
+table#dost {
+		text-align:center;
+		font-size:20px;
+		width:50%;
+		margin:auto;
+}
+#spisok {
+		text-align:left;
+		line-height:2em;
+}
+div #logo {
+		margin-top:-25px;
+		width:10px;
+		height:10px;
+		float:left;
+		}
+table#form {
+		width:30%;
+		margin:auto;
+		}
+table#form td{
+		text-align:center;
+		}	
+table#teachers {
+		width:50%;
+		margin:auto;
+		}
+table#teachers td{
+		text-align:center;
+		}
+table#photo {
+		width:50%;
+		margin:auto;
+		}
+table#photo td{
+		text-align:center;
+		}	
+table#classes {
+		width:30%;
+		margin:auto;
+		}
+table#classes td{
+		text-align:center;
+		}		
+footer {
+		position:absolute;
+		margin-bottom:-300px;
+		left:0;
+		bottom:0;
+		right:0;
+		padding:1em;
+		color:white;
+		background-color:#880000;
+		clear:left;
+		text-align:center;
+		}
